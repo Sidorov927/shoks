@@ -149,16 +149,16 @@ const restartButton = createElementStyle(
   "RESTART"
 );
 
-// Adding snow
-// for (let i = 0; i <= 30; i++) {
-//   createElementStyle(
-//     "i",
-//     `font-size: ${3 * Math.random()}em;left: ${
-//       100 * Math.random()
-//     }%; animation-delay: ${10 * Math.random()}s, ${2 * Math.random()}s`,
-//     "."
-//   );
-// }
+
+ for (let i = 0; i <= 30; i++) {
+   createElementStyle(
+     "i",
+     `font-size: ${3 * Math.random()}em;left: ${
+       100 * Math.random()
+     }%; animation-delay: ${10 * Math.random()}s, ${2 * Math.random()}s`,
+     "."
+   );
+ }
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
